@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(20, 21, 88);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+#Calculator {
+  background-color: black;
+  height: 500px;
+  width: 350px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+.nums {
+  border-radius: 50%;
+  font-size: 35px;
+  height: 70px;
+  width: 70px;
+}
+.orange {
+  background-color: #f49a07;
+}
+#container-input {
+  width: 300px;
+  height: 50px;
+  position: absolute;
+  top: 100px;
+  color: white;
+}
+#nomera {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  top: 190px;
+}
+.seriy {
+  background-color: rgba(160, 160, 160, 255);
+}
+.chorniy {
+  background-color: rgba(49, 49, 49, 255);
+  color: white;
+}
+.nol {
+  width: 150px;
+  border-radius: 50px;
+}
+#input {
+  text-align: end;
+  font-size: 25px;
+  margin: 10px;
+}
+.nums:active {
+  background-color: rgba(211, 211, 211, 0.493);
+}
